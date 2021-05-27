@@ -35,11 +35,13 @@ li {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  min-height: 20rem;
 }
 
 .weather__card {
   width: 5rem;
   height: 7rem;
-  background: greenyellow;
+  background: white;
   margin: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.6);
 }
