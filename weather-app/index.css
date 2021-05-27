@@ -9,4 +9,20 @@ body {
   background: lightslategray;
   font-family: sans-serif;
   min-height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather {
+  width: 10rem;
+  height: 10rem;
+  background: pink;
+}
+
+.weather__header {
+  color: blue;
+  /*and lot more styles 20 lines */
+  font-size: 2rem;
 }
